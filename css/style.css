@@ -1,0 +1,61 @@
+*,
+*::before,
+*::after {
+   box-sizing: border-box;
+}
+
+body {
+   font-family: 'Oswald', sans-serif;
+   font-size: 18px;
+   line-height: 27px;
+   font-weight: 300;
+   color: #2C2B2B;
+}
+
+a {
+   text-decoration: none;
+   color: inherit;
+   display: inline-block;
+}
+
+.container {
+   max-width: 1200px;
+   margin: 0 auto;
+}
+
+.header {
+   background-image: url('../images/header-bg.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: top center;
+   min-height: 700px;
+   color: #fff;
+}
+
+.container {}
+
+.header__top {}
+
+.logo {}
+
+.logo__img {}
+
+.phone {}
+
+.header__content {}
+
+.header__title {}
+
+.header__subtitle {}
+
+.header__text {}
+
+.button {}
+
+.header__social {}
+
+.header__social-link {}
+
+.header__social-img {}
+
+.header__images {}
