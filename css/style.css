@@ -94,13 +94,16 @@ ul {
 }
 
 .header__social {
-   padding: 70px 0 20px 65px;
+   padding: 70px 0 20px 70px;
+}
+
+.social {
    display: flex;
    align-items: center;
 }
 
-.header__social-link {
-   margin-right: 10px;
+.social__link {
+   margin: 0 5px;
 }
 
 .header__images {
@@ -359,12 +362,48 @@ ul {
 
 .contacts__item-text {}
 
-.contacts__form {}
+.contacts__form {
+   background-color: #21062A;
+   padding: 50px 75px 57px;
+   text-align: center;
+}
 
-.contacts__title {}
+.contacts__title {
+   color: #fff;
+   margin-bottom: 16px;
+   margin-left: 53px;
+   text-align: left;
+}
 
-.contacts__input {}
+.contacts__title:after {
+   background-color: #fff;
+}
 
-.contacts__btn {}
+.contacts__input {
+   background-color: transparent;
+   width: 460px;
+   height: 75px;
+   color: #fff;
+   border: 1px solid #fff;
+   margin-bottom: 12px;
+   display: block;
+   font-size: 24px;
+   padding: 0 15px;
+}
+
+.contacts__input::placeholder {
+   font-family: 'Oswald', sans-serif;
+   text-align: center;
+   font-size: 18px;
+   line-height: 27px;
+   font-weight: 300;
+   color: #c4c4c4;
+}
+
+.contacts__btn {
+   border: none;
+   color: #fff;
+   margin-top: 78px;
+}
 
 .button {}
