@@ -16,6 +16,7 @@ a {
    text-decoration: none;
    color: inherit;
    display: inline-block;
+   cursor: pointer;
 }
 
 button {
@@ -188,7 +189,6 @@ ul {
    top: 24px;
 }
 
-
 .services__list {
    list-style: none;
    counter-reset: my-counter;
@@ -250,8 +250,6 @@ ul {
    width: 100%;
    color: #fff;
 }
-
-.title {}
 
 .benefits__title {
    margin-left: 185px;
@@ -339,18 +337,10 @@ ul {
    height: 3px;
 }
 
-.contacts {}
-
 .contacts__inner {
    display: flex;
    justify-content: space-between;
 }
-
-.contacts__info {}
-
-.title {}
-
-.contacts__list {}
 
 .contacts__item {
    margin-bottom: 20px;
@@ -359,8 +349,6 @@ ul {
 .contacts__item-title {
    color: #5A0D67;
 }
-
-.contacts__item-text {}
 
 .contacts__form {
    background-color: #21062A;
@@ -406,4 +394,95 @@ ul {
    margin-top: 78px;
 }
 
-.button {}
+.footer {
+   background-color: #21062A;
+}
+
+.footer__inner {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   height: 100px;
+   color: #fff;
+}
+
+@media (max-width: 1140px) {
+   .services__item:hover {
+      width: 450px;
+   }
+}
+
+@media (max-width: 1024px) {
+   .header__images {
+      width: 80%;
+   }
+
+   .services {
+      padding-top: 250px;
+   }
+}
+
+@media (max-width: 900px) {
+   .header__title {
+      font-size: 54px;
+      line-height: 74px;
+   }
+
+   .header__subtitle {
+      font-size: 24px;
+      line-height: 36px;
+   }
+
+   .phone {
+      font-size: 24px;
+      line-height: 36px;
+   }
+
+   .header__social {
+      padding: 40px 0 20px 53px;
+   }
+}
+
+@media (max-width: 600px) {
+   .header__content {
+      padding-top: 0;
+      text-align: center;
+   }
+
+   .header__social {
+      padding: 40px 0 20px 0;
+   }
+
+   .social {
+      justify-content: center;
+   }
+}
+
+@media (max-width: 520px) {
+   .header__top {
+      flex-wrap: wrap;
+      justify-content: center;
+      text-align: center;
+   }
+
+   .logo {
+      width: 100%;
+      margin-bottom: 20px;
+   }
+
+   .header__title {
+      margin-bottom: 20px;
+   }
+
+   .header__images {
+      position: static;
+      width: 100%;
+   }
+}
+
+@media (max-width: 340px) {
+   .header__title {
+      font-size: 44px;
+      line-height: 50px;
+   }
+}
