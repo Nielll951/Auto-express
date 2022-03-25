@@ -468,6 +468,28 @@ ul {
    .header__social {
       padding: 40px 0 20px 53px;
    }
+
+   .contacts__inner {
+      display: block;
+      text-align: center;
+   }
+
+   .contacts__title {
+      margin-left: 0;
+      text-align: center;
+   }
+
+   .contacts__list {
+      margin-bottom: 30px;
+   }
+
+   .contacts__input {
+      width: 100%;
+   }
+
+   .contacts__btn {
+      margin-top: 20px;
+   }
 }
 
 @media (max-width: 768px) {
@@ -481,6 +503,22 @@ ul {
 
    .benefits__item {
       width: 100%;
+   }
+}
+
+@media (max-width: 650px) {
+   .footer__inner {
+      text-align: center;
+      flex-wrap: wrap;
+      justify-content: center;
+      height: auto;
+      padding: 20px 0;
+   }
+
+   .footer__social {
+      width: 100%;
+      justify-content: center;
+      margin: 25px 0;
    }
 }
 
@@ -538,6 +576,10 @@ ul {
    .carousel__item-img {
       width: 100%;
    }
+
+   .carousel .slick-dots button {
+      width: 20px;
+   }
 }
 
 @media (max-width: 520px) {
@@ -590,9 +632,10 @@ ul {
    .carousel .slick-dots button {
       width: 10px;
    }
-}
 
-@media (max-width: 360px) {
+   .contacts__form {
+      padding: 50px 10px 57px;
+   }
 
    .button--decor::before,
    .button--decor::after {
