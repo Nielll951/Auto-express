@@ -471,10 +471,6 @@ ul {
 }
 
 @media (max-width: 768px) {
-   .benefits__inner {
-      text-align: center;
-   }
-
    .benefits__title {
       margin-left: 0;
    }
@@ -530,12 +526,18 @@ ul {
       line-height: 22px;
    }
 
+   .benefits__inner {
+      text-align: center;
+   }
+
    .benefits__item-num {
       font-size: 26px;
       line-height: 36px;
    }
 
-   `
+   .carousel__item-img {
+      width: 100%;
+   }
 }
 
 @media (max-width: 520px) {
@@ -564,7 +566,8 @@ ul {
    }
 
    .services__inner,
-   .benefits {
+   .benefits,
+   .carousel {
       margin-bottom: 50px;
    }
 
@@ -582,6 +585,10 @@ ul {
 
    .button--decor::after {
       margin-left: 110px;
+   }
+
+   .carousel .slick-dots button {
+      width: 10px;
    }
 }
 
